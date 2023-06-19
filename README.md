@@ -1,2 +1,0 @@
-# TCP_IP_STUDY-2023
-TCP/IP 학습
