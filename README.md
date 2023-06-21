@@ -26,4 +26,10 @@ TCP/IP 학습
 	- socket() : 소켓생성, bind() : 소켓주소할당, listen() : 연결요청대기상태, accept() : 연결허용, read()/write() : 데이터 송수신, close() : 연결종료
 - TCP 클라이언트 함수호출
 	- socket(), connect() : 연결요청, read()/write(), close()
+
+## Day03
 - Iterative server, client
+- TCP 내부 동작 : 소켓 연결(Tree-way handshaking), 데이터 송수신, 연결종료(Four-way handshaking) 
+	- 데이터 송수신에서 ACK 번호 -> SEQ번호 + 전송된 바이트 크기 +1
+- UDP기반 server/client -> TCP와 달리 연결 상태를 유지하지 않으므로 주소정보 요구
+- TCP 기반 Half-Close
