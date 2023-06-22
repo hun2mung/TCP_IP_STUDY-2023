@@ -33,3 +33,4 @@ TCP/IP 학습
 	- 데이터 송수신에서 ACK 번호 -> SEQ번호 + 전송된 바이트 크기 +1
 - UDP기반 server/client -> TCP와 달리 연결 상태를 유지하지 않으므로 주소정보 요구
 - TCP 기반 Half-Close
+asdasd
